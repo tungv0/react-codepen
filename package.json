@@ -29,6 +29,7 @@
     "react-dom": "^15.5.4",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
+    "styled-components": "^2.1.1",
     "webpack": "^2.3.3"
   },
   "devDependencies": {

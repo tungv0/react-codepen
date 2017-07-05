@@ -1,5 +1,21 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import { injectGlobal } from 'styled-components';
+
 import App from './components/App';
 
-render(<App name='World' />, document.getElementById('root'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+
+// Global style
+// eslint-disable-next-line
+injectGlobal`
+  body {
+    background-color: ghostwhite;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+  }
+`
